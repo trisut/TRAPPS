@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg">
+
+    <!-- Statis Profile TextView -->
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:background="@color/material_dynamic_primary10"
+        android:fontFamily="@font/sundaymilk"
+        android:text="Daily"
+        android:textColor="@color/material_dynamic_neutral_variant80"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:paddingVertical="10dp" />
+
+    <!-- Scrollable content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"> <!-- Adjust this margin to avoid overlap with the static TextView -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="Daily Activity"
+                android:fontFamily="@font/brightpeony"
+                android:textSize="30sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewVertical"
+                android:layout_width="match_parent"
+                android:layout_height="410dp"
+                android:layout_below="@id/textView17"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="107dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/rounded_background"
+                tools:listitem="@layout/list_item" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recyclerViewVertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/brightpeony"
+                android:text="Friendlist"
+                android:textSize="30sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView21"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/rounded_background"
+                android:orientation="horizontal"
+                tools:listitem="@layout/item_layout" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recyclerViewHorizontal"
+                android:layout_marginTop="130dp"
+                android:textColor="@color/hijau"/>
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

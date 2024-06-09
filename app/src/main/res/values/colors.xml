@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="hijau">#00FF00</color>
+    <color name="coklat">#e7ceb8</color>
+    <color name="biru">#82CAFF</color>
+    <color name="active">#978C8A</color>
+    <color name="button">#BBA19C</color>
+    <color name="next">#B28F5C</color>
+    <color name="statusbar">#AF9B8B</color>
+</resources>

@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TRAPPS" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/material_dynamic_neutral_variant30</item>
+        <item name="colorPrimary">@color/material_dynamic_primary10</item>
+        <item name="colorPrimaryVariant">@color/material_dynamic_neutral_variant40</item>
+        <item name="android:statusBarColor">@color/material_dynamic_neutral30</item>
+    </style>
+
+    <style name="Theme.TRAPPS" parent="Base.Theme.TRAPPS" />
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+    <item name="android:color">@color/material_dynamic_neutral60</item>
+    </style>
+</resources>

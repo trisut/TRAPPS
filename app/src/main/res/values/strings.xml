@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TRAPPS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home">home</string>
+    <string name="gallery">gallery</string>
+    <string name="profile">profile</string>
+    <string name="music">music</string>
+    <string name="daily">daily</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nama">TRI SUTRISNO</string>
+    <string name="nim">10121257</string>
+    <string name="alamat">Jln.Sudirman No.10 </string>
+    <string name="umur">21 Tahun</string>
+    <string name="hobi">Bermain Game</string>
+    <string name="cita">Game Developer di Ubisoft</string>
+    <string name="about">Aplikasi MySelf App ini dibuat oleh TRI Sutrisno dengan NIM 10121257 dari kelas Pemrograman Android 3 untuk memenuhi tugas dari matakuliah Pemrograman Android</string>
+</resources>
